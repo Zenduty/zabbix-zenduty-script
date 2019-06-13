@@ -57,7 +57,7 @@ Steps:
 
 17. Click on the Media tab and, inside of the Media box, click the Add button. 
 
-18. Select the type that you have created in step VII, paste the key that you have copied from Zenduty in "Send to".
+18. Select the type that you have created in step 7, paste the key that you have copied from Zenduty in "Send to".
 
 **Create the alert action**
 
