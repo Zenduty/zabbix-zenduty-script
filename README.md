@@ -15,7 +15,7 @@ Steps:
 
 1. Clone this Repository
 
-2. Copy the Script file and paste it into "Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
+2. Copy the Script file and paste it into Zabbix server's AlertScriptsPath. You can see your AlertScriptsPath path from Zabbix server configuration file.
 
 **Create the Zenduty media type:**
 
@@ -25,7 +25,7 @@ Steps:
 
 5. On the following Media Type configuration page, enter “Zenduty” for Name, Select script in "type" and write the name of the file which you have pasted in AlertScriptPath.
 
-6. Click the Add link in the Script parameters box three times to create three configurable parameters for the script, and enter the following template values for the three parameters in exactly the following order:
+6. Click the Add link in the Script parameters box two times to create two configurable parameters for the script, and enter the following template values for the two parameters in exactly the following order:
   ```
   {ALERT.SENDTO}
   {ALERT.SUBJECT}
@@ -74,11 +74,11 @@ Steps:
         "host": "{HOST.NAME}",
         "severity": "{EVENT.SEVERITY}",
         "original_problem_id": "{EVENT.ID}",
-          "event_status":"{EVENT.STATUS}",
-          "host_ip":"{HOST.IP1}",
+        "event_status":"{EVENT.STATUS}",
+        "host_ip":"{HOST.IP1}",
         "item_name":"{ITEM.NAME1}",
         "item_value":"{ITEM.VALUE1}",
-          "trigger_description":"{TRIGGER.DESCRIPTION}",
+        "trigger_description":"{TRIGGER.DESCRIPTION}",
         "trigger_expression":"{TRIGGER.EXPRESSION}",
         "trigger_status":"{TRIGGER.STATUS}",
         "trigger_url":"{TRIGGER.URL}",
