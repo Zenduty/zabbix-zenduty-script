@@ -73,7 +73,7 @@ Steps:
         "problem_name": "{EVENT.NAME}",
         "host": "{HOST.NAME}",
         "severity": "{EVENT.SEVERITY}",
-        "original_problem_id": "{TRIGGER.ID}",
+        "original_problem_id": "{EVENT.ID}",
         "event_status":"{EVENT.STATUS}",
         "host_ip":"{HOST.IP1}",
         "item_name":"{ITEM.NAME1}",
