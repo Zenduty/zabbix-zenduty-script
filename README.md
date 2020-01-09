@@ -68,9 +68,9 @@ Steps:
     1. Delete the contents of the Default message field, and insert the following:
     ```
     {
-        "problem": " {EVENT.NAME}",
+        "problem": " {TRIGGER.NAME}",
         "problem_started_at": "{EVENT.TIME} on {EVENT.DATE}",
-        "problem_name": "{EVENT.NAME}",
+        "problem_name": "{TRIGGER.NAME}",
         "host": "{HOST.NAME}",
         "severity": "{EVENT.SEVERITY}",
         "original_problem_id": "{EVENT.ID}",
