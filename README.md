@@ -76,8 +76,6 @@ Steps:
         "original_problem_id": "{EVENT.ID}",
         "event_status":"{EVENT.STATUS}",
         "host_ip":"{HOST.IP1}",
-        "item_name":"{ITEM.NAME1}",
-        "item_value":"{ITEM.VALUE1}",
         "trigger_description":"{TRIGGER.DESCRIPTION}",
         "trigger_expression":"{TRIGGER.EXPRESSION}",
         "trigger_status":"{TRIGGER.STATUS}",
